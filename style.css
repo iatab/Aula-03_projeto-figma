@@ -1,0 +1,123 @@
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+}
+
+.page {
+
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px; /* margem interna do bloco*/
+
+
+}
+
+nav{
+display: flex;
+justify-content: space-between; /*um para cada lado, verifica usando a inspeção*/
+
+margin-bottom: 55px;
+}
+
+ul{
+display: flex; /* auxilia na criação da margem entre os itens */
+gap: 48px; /*só existe quando uso o display fles*/
+list-style: none; /* não mostra os pontos da lista*/
+margin: 0 ;
+padding: 0;
+
+
+
+}
+
+a{
+color: #1f1534;
+text-decoration: none;
+
+
+}
+
+ul, li, a { /* muda a opacidade*/
+opacity: 0.5;
+
+
+}
+
+ul,li,a:hover{ /*quando o mouse passa em cima, fica negrito e muda opacidade*/
+font-weight: bold;
+opacity: 1;
+
+}
+
+
+h1, ul {
+
+font-family: 'mulish', sans-serif;
+
+
+}
+
+
+main{
+
+
+display: flex;
+align-items: center; /* mesmo alinhamento*/
+justify-content: space-between; /*um para cada lado*/
+
+
+
+
+}
+
+
+button{
+
+color: white;
+text-transform: uppercase; /* coloca a letra em maiusculo*/
+font-family: 'open sans', sans-serif;
+
+
+background: #69b99b;
+border: 0;
+padding-left: 14px 32px 15px ;
+
+
+display: flex;
+align-content: center;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+
+border-radius: 4px;
+cursor: pointer;
+
+
+
+
+
+
+}
+
+button:hover{
+    background: #3f9475;
+
+
+}
+
+
+footer{
+
+font-size: 14px;
+line-height: 28px;
+
+text-align: center;
+
+margin-top: 80px;
+
+
+}
+
